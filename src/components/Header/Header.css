@@ -1,0 +1,71 @@
+.header {
+    background-color: #2e2e2e;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: #ff7948;
+}
+
+.home-logo {
+}
+
+.csDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.csMail .mailIcon,
+.whatsApp .whatsAppIcon,
+.callUs .phoneIcon
+{
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.whatsApp .whatsAppIcon
+{
+    background-image: url('./whatsapp-icon.svg');
+}
+
+.csMail .mailIcon
+{
+    background-image: url('./email.svg');
+}
+
+.callUs .phoneIcon {
+    background-image: url('./landline.svg');
+}
+
+.franchiseWhatsapp a,
+.franchiseEmail a {
+    color: inherit;
+}
+
+.callUs a:hover,
+.whatsApp a:hover,
+.csMail a:hover {
+    cursor: pointer;
+    background-color: #ff7948;
+    text-decoration: underline;
+}
+
+.account-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.account-panel h3 {
+    padding: 10px;
+}
+
+.account-panel h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: white;
+}
