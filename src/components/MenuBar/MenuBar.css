@@ -1,0 +1,29 @@
+.menubar {
+    background-color:  #ff7948;
+    border-bottom: 1px solid black;
+    font-weight: bolder;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    list-style-type: none;
+}
+
+.menu-item:hover {
+    background-color: #2e2e2e;
+    cursor: pointer;
+}
+
+.menu-item span {
+    color: #2e2e2e;
+    margin: 1rem;
+}
+
+.menu-item:hover > span{
+    color: #ff7948;
+ 
+    text-decoration: underline;
+}

@@ -11,7 +11,7 @@ import Logo from './logo.png';
  */
 class Header extends React.Component {
     getPhoneNumber() {
-        return '+1(314) 435 0588';
+        return '+1(888) 777 666';
     }
 
     getTelephoneLink() {
@@ -43,10 +43,7 @@ class Header extends React.Component {
             <div className="header">
                 <div className="account-panel">
                     <div>
-                        <h3>Account</h3>
-                    </div>
-                    <div>
-                        <h3>Admin</h3>
+                        <h3>My Account</h3>
                     </div>
                 </div>
                 <div className="home-logo">
